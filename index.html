@@ -42,12 +42,12 @@ title: Thiết kế website chuyên nghiệp
             <header class="section-header">
                 <h2 class="section-title">Chúng tôi làm những gì?</h2>
                 <div class="section-description">
-                    Tham khảo công việc chúng tôi làm mỗi ngày nhé!
+                    Tham khảo công việc chúng tôi đã làm nhé!
                 </div>
             </header>
             <div class="section-content">
                 <div class="row">
-                    {% assign array = "1,2,3,4,5,6,7,8" | split: "," %}
+                    {% assign array = "1,2,3,4,5,6,7" | split: "," %}
                     {% for i in array %}
                     <div class="col-sm-3 col-xs-6">
                         <div class="project">
@@ -61,6 +61,17 @@ title: Thiết kế website chuyên nghiệp
                         </div>
                     </div>
                     {% endfor %}
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="project">
+                            <a href="songsangkhoai.com" class="project-thumbnail">
+                                <img src="http://songsangkhoai.com/wp-content/themes/fata-ssk/img/logo.png">
+                                <i class="fa fa-plus-circle"></i>
+                            </a>
+                            <h3 class="project-title">
+                                <a href="songsangkhoai.com" title="Sống Sảng Khoái">Sống Sảng Khoái - Thoải mái tột đỉnh</a>
+                            </h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
